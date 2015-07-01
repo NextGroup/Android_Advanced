@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MultiScreen Day1_3</string>
+    <string name="practice1">D1_3.P1 Ninepatch</string>
+    <string name="test">안녕하세요! 나인패치 강의에 사용된 말풍선 예제입니다.
+        나인패치를 사용하는 방법에 따라 말풍선이 어떻게 바뀌는지 알아봅시다.
+        이를 통해 나인패치를 알맞게 사용하기 위해선 무엇을 고민해야할지 생각해봅시다.</string>
+</resources>
