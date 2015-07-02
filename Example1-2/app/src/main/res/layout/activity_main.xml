@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText,InOrMmUsage,PxUsage" >
+
+    <TextView
+        android:id="@+id/tvPx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5sp"
+        android:text="160px"
+        android:textSize="22sp" >
+    </TextView>
+
+    <View
+        android:id="@+id/vPx"
+        android:layout_width="160px"
+        android:layout_height="20dip"
+        android:layout_marginLeft="20sp"
+        android:background="#FFA4C639" >
+    </View>
+
+    <TextView
+        android:id="@+id/tvMm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5sp"
+        android:text="25.4mm"
+        android:textSize="22sp" >
+    </TextView>
+
+    <View
+        android:id="@+id/vMm"
+        android:layout_width="25.4mm"
+        android:layout_height="20dip"
+        android:layout_marginLeft="20sp"
+        android:background="#FFA4C639" >
+    </View>
+
+    <TextView
+        android:id="@+id/tvIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5sp"
+        android:text="1in"
+        android:textSize="22sp" >
+    </TextView>
+
+    <View
+        android:id="@+id/vIn"
+        android:layout_width="1in"
+        android:layout_height="20dip"
+        android:layout_marginLeft="20sp"
+        android:background="#FFA4C639" >
+    </View>
+
+    <TextView
+        android:id="@+id/tvPt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5sp"
+        android:text="72pt"
+        android:textSize="22sp" >
+    </TextView>
+
+    <View
+        android:id="@+id/vPt"
+        android:layout_width="72pt"
+        android:layout_height="20dip"
+        android:layout_marginLeft="20sp"
+        android:background="#FFA4C639" >
+    </View>
+
+    <TextView
+        android:id="@+id/tvDp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5sp"
+        android:text="160dp"
+        android:textSize="22sp" >
+    </TextView>
+
+    <View
+        android:id="@+id/vDp"
+        android:layout_width="160dp"
+        android:layout_height="20dip"
+        android:layout_marginLeft="20sp"
+        android:background="#FFA4C639" >
+    </View>
+
+    <TextView
+        android:id="@+id/tvSp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5sp"
+        android:text="160sp"
+        android:textSize="22sp" >
+    </TextView>
+
+    <View
+        android:id="@+id/vSp"
+        android:layout_width="160sp"
+        android:layout_height="20dip"
+        android:layout_marginLeft="20sp"
+        android:background="#FFA4C639" >
+    </View>
+
+</LinearLayout>
