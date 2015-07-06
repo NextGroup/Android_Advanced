@@ -3,17 +3,16 @@ package nhnnext.android.com.example2_2;
 import java.lang.reflect.Method;
 
 import android.annotation.SuppressLint;
-import android.content.res.Resources;
 import android.graphics.Point;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.util.DisplayMetrics;
+import android.util.TypedValue;
 import android.view.Display;
 import android.widget.TextView;
 
-
-public class MainActivity1 extends ActionBarActivity {
+public class MainActivity3 extends ActionBarActivity {
 
     public static Point getRealSize(Display display) {
         Point result = new Point();
@@ -49,61 +48,20 @@ public class MainActivity1 extends ActionBarActivity {
         return result;
     }
 
-    private String getScreenStats() {
-
-        Display display = getWindowManager().getDefaultDisplay();
-
-        DisplayMetrics metrics = getResources().getDisplayMetrics();
-
-        Point pxSize = getSize(display);
-
-        Point dpSize = new Point();
-        dpSize.x = (int) (pxSize.x / metrics.density);
-        dpSize.y = (int) (pxSize.y / metrics.density);
-
-        StringBuilder sb = new StringBuilder();
-        sb.append(Build.MANUFACTURER);
-        sb.append(", ");
-        sb.append(Build.MODEL);
-        sb.append("\n\n");
-
-        sb.append("Pixels: ");
-        sb.append(pxSize.x);
-        sb.append(" x " );
-        sb.append(pxSize.y);
-        sb.append("\n\n");
-
-        sb.append("Dp (px / density): ");
-        sb.append(dpSize.x);
-        sb.append(" x " );
-        sb.append(dpSize.y);
-        sb.append("\n\n");
-
-        sb.append("smallest width: " + Math.min(pxSize.x, dpSize.x));
-        sb.append("\n\n");
-
-        sb.append("density: ");
-        sb.append(metrics.densityDpi);
-        sb.append("dpi, ");
-        sb.append(metrics.density);
-
-        sb.append("\n\n");
-        Resources res = getResources();
-        sb.append("dimen: "+(res.getDimension(R.dimen.padding) / metrics.density) +"dp, ");
-        sb.append(res.getDimension(R.dimen.padding) +"px");
-
-        return sb.toString();
-    }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        int paddingInDimen = getResources().getDimensionPixelSize(R.dimen.padding);
+        Point screenSize = getSize(getWindowManager().getDefaultDisplay());
+
+        int textSize = screenSize.x / 20;
 
         TextView tvInfo = new TextView(this);
-        tvInfo.setPadding(paddingInDimen, paddingInDimen, paddingInDimen, paddingInDimen);
-        tvInfo.setText(getScreenStats());
+        tvInfo.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize);
+        tvInfo.setText("TextSize: "
+                + textSize + " px, "
+                + (textSize / getResources().getDisplayMetrics().density) + "dp\n"
+                + getString(R.string.content));
 
         setContentView(tvInfo);
     }
