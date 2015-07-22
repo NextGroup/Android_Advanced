@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Example4</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="practice1_1">D4_2.P1_1 Using Fragment, XML</string>
+    <string name="practice1_2">D4_2.P1_2 Using Fragment, Code</string>
+    <string name="practice2">D4_2.P2 Fragment Compatibility</string>
+    <string name="practice3">D4_2.P3 Lifecycle</string>
+    <string name="practice4">D4_2.P4 Screen Split</string>
+
+</resources>
