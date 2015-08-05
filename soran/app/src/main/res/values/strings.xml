@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SORAN</string>
+    
+    <string name="soran_join">제 2회 SORAN 참여하기</string>
+    
+    <string name="tab_soran">SORAN이란?</string>
+    <string name="tab_session">세션정보</string>
+    <string name="tab_empty">추가하세요</string>
+    <string name="tab_map">찾아오는 길</string>
+    
+    <string name="session_1_title">말 그대로 Incredible, India!</string>
+    <string name="session_1_instructor">김영</string>
+    <string name="session_1_description"><![CDATA[한국에 돌아와서도 내내 \'인도 다시 가고싶다..\'를 입에 달고 살고 있습니다. 3-9의 분위기 메이커! 김영입니다.\n\n지난 겨울 방학기간 동안, 35일간의 인도여행에서 느낀 것들에 대해 공유합니다. 델리 국제공항에 쓰여져 있던 Incredible India가 이런 식의 Incredible일 줄은 몰랐거든요!\n\n매순간이 놀라움이었던 인도에서의 이야기와 사진들. 그리고 우리가 생각해봐야할 발전과 삶의 자세에 대해 이야기합니다.]]></string>
+    
+    <string name="session_2_title">교육부가 당신에게 가르쳐주지 않은 것</string>
+    <string name="session_2_instructor">문진상</string>
+    <string name="session_2_description"><![CDATA[선사시대였으면 진작에 굶어죽었을 사람. 문교수님, 문진상입니다.\n\n역사적 창조성이 발휘되는 여러 장면들 (전쟁사, 과학, 예술) 창의성이란 무엇인지 왜 창의적인 인물이 되기 힘든지(특히 우리나라에서) 자식농사는 어떻게 지어야 하는지\n\n창조성을 이끌어내는 체험을 드리고 싶습니다.]]></string>
+        
+    <string name="session_3_title">좀 더 나은 세상을 만들기 위한 움직임 사회적 기업</string>
+    <string name="session_3_instructor">변치호</string>
+    <string name="session_3_description"><![CDATA[지금 휴학생이지만, YOUMUN 활동에 활발히 참여하고 있는 변치호입니다.\n\n빌 게이츠가 선언한 \'창조적 자본주의\' 상에서, 사회적 기업에 대한 이야기와 좀 더 나은 사회를 만들기 위한 마음과 비즈니스가 결합한 사례들을 소개합니다.\n\n함께 생각을 공유했으면 좋겠습니다.]]></string>
+        
+    <string name="session_4_title">LINE 인턴 경험기</string>
+    <string name="session_4_instructor">이원효</string>
+    <string name="session_4_description"><![CDATA[넥스트 2년차 경영대 출신 초보 개발자! 이원효입니다.\n\n지난 겨울 방학동안 인턴 과정을 겪으면서 느꼈던 현장의 분위기와 입사 면접, 현장과 학교의 차이를 중점적으로 설명해봅시다.\n\nNEXT의 대다수를 차지하는 저와 비슷한 상황에 놓인 분들과 자유롭게 이야기를 나눌 수 있는 시간이 되었으면 합니다.]]></string>
+        
+    <string name="session_5_title">NEXT 튜터링</string>
+    <string name="session_5_instructor">정문철</string>
+    <string name="session_5_description"><![CDATA[넥스트의 잉여, 정가이버 정문철입니다.\n\nNEXT란 곳은 단지 컴퓨터만 배우는 곳이 아니라 여러 배경을 가진 사람들과 만나 그들과 경험을 공유할 수 있는 좋은 공간입니다.\n\nNEXT의 튜터링이 어떤것인지 간단히 소개합니다.]]></string>
+        
+    <string name="session_6_title">나, 우리, 스터디</string>
+    <string name="session_6_instructor">박재성</string>
+    <string name="session_6_description"><![CDATA[끊임없이 공부하는 교수, 박재성입니다.\n\n지금까지 진행했던 다양한 스터디 경험을 공유합니다. 좋은 스터디, 지속 가능한 스터디를 만들기 위한 노하우를 공유하고 스터디를 통해 무엇을 얻을 것인가에 대해 이야기합니다.\n\n발표자의 성장 과정을 통해 스터디가 사람을 어떻게 성장시킬 수 있는지에 대해서도 들어보세요.]]></string>
+    
+    <string name="session_7_title">INNER CHILD, 상처투성이인 당신에게 내미는 작은 손</string>
+    <string name="session_7_instructor">박상희</string>
+    <string name="session_7_description"><![CDATA[주로 무더운 7월, 추운 12월에 여러분께 함께 했던 저, 박상희입니다.\n\n당신의 과거 상처받은 내면아이(neglected, wounded inner child of the past)가 바로 사람들이 겪는 불행의 큰 원인일 수 있습니다.\n\n자신의 상처받은 내면아이를 발견하고 충분히 슬퍼하며 스스로를 돌보는 과정을 통해 보다 행복한 삶의 여정을 이루도록 돕는 심리치료의 한 분야를 소개합니다.]]></string>
+    
+    <string name="session_8_title">고등학생의 인디게임 실패기</string>
+    <string name="session_8_instructor">라태웅</string>
+    <string name="session_8_description"><![CDATA[무모한 도전 정신을 지닌 고등학생! 이었던 라태웅입니다.\n\n\'수백명이서 만든 아키에이지, 다섯명이서 아키에이지 같은 게임을 만들어보자!\'며 10년동안 도전했습니다.\n\n할 줄 아는 것이라고는 게임 프로그래밍뿐, 의욕만 넘치는 고등학생의 막장 인디게임 실패기입니다.]]></string>
+    
+    <string name="session_9_title">영화를 즐겁게 보는 방법</string>
+    <string name="session_9_instructor">윤영기</string>
+    <string name="session_9_description"><![CDATA[제 5회 shiftu 영화제 일반부 최우수상 수상에 빛나는 2기 윤영기입니다.\n\n세계에서 가장 많은 영화를 보는 한국인(연 평균 4.12회) 여러분은 영화를 어떻게 보고 있습니까?\n\n영화를 어떻게 더 즐겁게 감상할 수 있는지 그 방법을 알려드립니다.]]></string>
+    
+</resources>

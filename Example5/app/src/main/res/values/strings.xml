@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MultiScreen Day5_1</string>
+    <string name="practice1_1">D5_1.P1_1 Fragment Replace 1</string>
+    <string name="practice1_2">D5_1.P1_2 Fragment Replace 2</string>
+    <string name="practice2">D5_1.P2</string>
+    <string name="practice3_1">D5_1.P3_1</string>
+    <string name="practice3_2">D5_1.P3_2</string>
+    <string name="practice4_1">D5_1.P4_1</string>
+    <string name="practice4_2">D5_1.P4_2</string>
+
+</resources>
