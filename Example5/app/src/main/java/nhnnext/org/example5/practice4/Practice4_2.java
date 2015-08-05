@@ -41,6 +41,13 @@ public class Practice4_2 extends ActionBarActivity {
 				.setText("Fragment2")
 				.setTabListener(tabListener);
 		mActionbar.addTab(tab);
+
+        mViewPager.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
+            @Override
+            public void onPageSelected(int position) {
+                mActionbar.setSelectedNavigationItem(position);
+            }
+        });
 	}
 	
 	private ActionBar.TabListener tabListener = new TabListener() {

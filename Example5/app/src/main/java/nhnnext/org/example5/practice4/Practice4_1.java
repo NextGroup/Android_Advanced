@@ -20,5 +20,7 @@ public class Practice4_1 extends FragmentActivity {
 		mViewPager = (ViewPager) findViewById(R.id.pager);
 		mPagerAdapter = new Practice4_1_FragmentAdapter(getSupportFragmentManager());
 		mViewPager.setAdapter(mPagerAdapter);
+
+
 	}
 }
